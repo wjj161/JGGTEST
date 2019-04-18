@@ -1,0 +1,16 @@
+.main {
+             
+    background-color: rgb(233, 14, 14);
+    width: 70%;
+    padding-bottom: 60%;
+     
+}
+.main>div {
+    width: 26%;
+    padding-bottom: 26%;
+    border: 1% solid #fff;         
+    background-color: rgb(250, 234, 17);
+    border-radius: 3%;
+    float: left;
+    margin: 1%;
+}
