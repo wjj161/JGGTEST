@@ -1,15 +1,14 @@
-.main {           
+.main {  
+    width: 35%;         
     background-color: rgb(233, 14, 14);
-    width: 50%;
-    padding-bottom: 45%; /*设置元素的下内边距。*/
-     
+    padding-bottom: 35%; /*设置元素的下内边距。*/
 }
 .main>div {
     width: 26%;
     padding-bottom: 26%;
     border: 1% solid #fff;         
     background-color: rgb(250, 234, 17);
-    border-radius: 5%; /*设置元素的圆角边框。*/
+    border-radius: 10%; /*设置元素的圆角边框。*/
     float: left;
     margin: 1%; /*声明所有外边距属性。*/
 }
