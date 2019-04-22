@@ -1,11 +1,32 @@
-.main {  
-    width: 35%;         
+/*最外层div，解决水平垂直居中，因为flex的属性针对他的子div，所以要嵌套一个div*/
+.pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main {          
     background-color: rgb(233, 14, 14);
-    padding-bottom: 35%; /*设置元素的下内边距。*/
+    width: calc(94%/3);
+   
+}
+/*clearfix解决浮动问题*/
+.clearfix {
+    zoom: 1;
+}
+.clearfix:before,.clearfix:after {
+    content: ' ';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
 }
 .main>div {
-    width: 26%;
-    padding-bottom: 26%;
+    width: calc(94%/3);
+    padding-bottom: calc(94%/3);
     border: 1% solid #fff;         
     background-color: rgb(250, 234, 17);
     border-radius: 10%; /*设置元素的圆角边框。*/
